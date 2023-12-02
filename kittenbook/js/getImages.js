@@ -1,8 +1,4 @@
-var images = document.querySelectorAll('div.x1n2onr6 img');
-
-for (i = 0; i < images.length; i++){
-    console.log(images[i].currentSrc);
+function getImages() {
+    var images = document.querySelectorAll('div.x1n2onr6 img');
+    return images;
 }
-
-console.log(images.length);
-console.log(images);
